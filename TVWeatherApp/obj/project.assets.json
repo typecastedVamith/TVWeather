@@ -135,6 +135,24 @@
         "runtime": {
           "lib/netstandard2.0/RestSharp.dll": {}
         }
+      },
+      "Selenium.Firefox.WebDriver/0.26.0": {
+        "type": "package",
+        "build": {
+          "build/Selenium.Firefox.WebDriver.targets": {}
+        }
+      },
+      "Selenium.WebDriver/3.141.0": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "10.0.3"
+        },
+        "compile": {
+          "lib/netstandard2.0/WebDriver.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/WebDriver.dll": {}
+        }
       }
     }
   },
@@ -338,12 +356,46 @@
         "restsharp.nuspec",
         "restsharp.png"
       ]
+    },
+    "Selenium.Firefox.WebDriver/0.26.0": {
+      "sha512": "l0N+Vw4/Y1kq/BX5JnRbgFSVkNC89EH3Vg/T1KlchO9MTOgGVdn2JGqNJWXZ7recxWu7WolCvUBPmzqnMQlSaQ==",
+      "type": "package",
+      "path": "selenium.firefox.webdriver/0.26.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/Selenium.Firefox.WebDriver.targets",
+        "driver/geckodriver.exe",
+        "selenium.firefox.webdriver.0.26.0.nupkg.sha512",
+        "selenium.firefox.webdriver.nuspec"
+      ]
+    },
+    "Selenium.WebDriver/3.141.0": {
+      "sha512": "wPqzXO3f79DzqauTZSzLMKiaBCN0Z2Mv7KvWP+hnV6EL88zh/pJJnFtdIR1X5wa3hsTOpF/bBJs45rz7kArsiA==",
+      "type": "package",
+      "path": "selenium.webdriver/3.141.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net35/WebDriver.dll",
+        "lib/net35/WebDriver.xml",
+        "lib/net40/WebDriver.dll",
+        "lib/net40/WebDriver.xml",
+        "lib/net45/WebDriver.dll",
+        "lib/net45/WebDriver.xml",
+        "lib/netstandard2.0/WebDriver.dll",
+        "lib/netstandard2.0/WebDriver.xml",
+        "selenium.webdriver.3.141.0.nupkg.sha512",
+        "selenium.webdriver.nuspec"
+      ]
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
       "RestClient >= 3.0.0.21",
-      "RestSharp >= 106.11.4"
+      "RestSharp >= 106.11.4",
+      "Selenium.Firefox.WebDriver >= 0.26.0",
+      "Selenium.WebDriver >= 3.141.0"
     ]
   },
   "packageFolders": {
@@ -390,6 +442,14 @@
           "RestSharp": {
             "target": "Package",
             "version": "[106.11.4, )"
+          },
+          "Selenium.Firefox.WebDriver": {
+            "target": "Package",
+            "version": "[0.26.0, )"
+          },
+          "Selenium.WebDriver": {
+            "target": "Package",
+            "version": "[3.141.0, )"
           }
         },
         "imports": [

@@ -1,5 +1,4 @@
 C:\Users\Amith.v.nayak\source\repos\TVWeatherApp\TVWeatherApp\bin\Debug\netcoreapp3.1\TVWeatherApp.exe
-C:\Users\Amith.v.nayak\source\repos\TVWeatherApp\TVWeatherApp\obj\Debug\netcoreapp3.1\TVWeatherApp.csprojAssemblyReference.cache
 C:\Users\Amith.v.nayak\source\repos\TVWeatherApp\TVWeatherApp\obj\Debug\netcoreapp3.1\TVWeatherApp.AssemblyInfoInputs.cache
 C:\Users\Amith.v.nayak\source\repos\TVWeatherApp\TVWeatherApp\obj\Debug\netcoreapp3.1\TVWeatherApp.AssemblyInfo.cs
 C:\Users\Amith.v.nayak\source\repos\TVWeatherApp\TVWeatherApp\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
@@ -20,7 +19,8 @@ C:\Users\Amith.v.nayak\source\repos\TVWeatherApp\TVWeatherApp\bin\Debug\netcorea
 C:\Users\Amith.v.nayak\source\repos\TVWeatherApp\TVWeatherApp\bin\Debug\netcoreapp3.1\TVWeatherApp.dll
 C:\Users\Amith.v.nayak\source\repos\TVWeatherApp\TVWeatherApp\bin\Debug\netcoreapp3.1\TVWeatherApp.pdb
 C:\Users\Amith.v.nayak\source\repos\TVWeatherApp\TVWeatherApp\bin\Debug\netcoreapp3.1\RestSharp.dll
-C:\Users\Amith.v.nayak\source\repos\TVWeatherApp\TVWeatherApp\obj\Debug\netcoreapp3.1\TVWeatherApp.csproj.CoreCompileInputs.cache
 C:\Users\Amith.v.nayak\source\repos\TVWeatherApp\TVWeatherApp\obj\Debug\netcoreapp3.1\TVWeatherApp.dll
 C:\Users\Amith.v.nayak\source\repos\TVWeatherApp\TVWeatherApp\obj\Debug\netcoreapp3.1\TVWeatherApp.pdb
 C:\Users\Amith.v.nayak\source\repos\TVWeatherApp\TVWeatherApp\obj\Debug\netcoreapp3.1\TVWeatherApp.genruntimeconfig.cache
+C:\Users\Amith.v.nayak\source\repos\TVWeatherApp\TVWeatherApp\bin\Debug\netcoreapp3.1\WebDriver.dll
+C:\Users\Amith.v.nayak\source\repos\TVWeatherApp\TVWeatherApp\obj\Debug\netcoreapp3.1\TVWeatherApp.csproj.CoreCompileInputs.cache

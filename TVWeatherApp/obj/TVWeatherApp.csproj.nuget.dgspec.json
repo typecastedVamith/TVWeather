@@ -45,6 +45,14 @@
             "RestSharp": {
               "target": "Package",
               "version": "[106.11.4, )"
+            },
+            "Selenium.Firefox.WebDriver": {
+              "target": "Package",
+              "version": "[0.26.0, )"
+            },
+            "Selenium.WebDriver": {
+              "target": "Package",
+              "version": "[3.141.0, )"
             }
           },
           "imports": [
