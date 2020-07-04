@@ -6,7 +6,7 @@ namespace TVWeatherApp
 {
     interface WeatherForcast
     {
-        public float temperatureInDegree();
+        public double temperatureInDegree();
         public float humidityInPercentage();
         public float windInKM();
         

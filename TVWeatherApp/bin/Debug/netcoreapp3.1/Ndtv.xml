@@ -1,4 +1,6 @@
 <?xml version = "1.0"?>
 <class Feature = "Ndtv">
-   <NdtvPlaceHolder xpath = "//input[@class='searchBox'] id ="searchBox"/>
+   <NdtvPlaceHolder xpath = "//input[@class='searchBox']" id ="searchBox"/>
+   <NdtvCityOnMap xpath = "//div[contains(text(),'CITY')]"/>
+   <NdtvCityTemperature xpath ="//span[@class='heading']/b[contains(text(),'Degrees')]"/>
 </class>

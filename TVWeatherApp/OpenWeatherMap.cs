@@ -12,9 +12,9 @@ namespace TVWeatherApp
             throw new NotImplementedException();
         }
 
-        public float temperatureInDegree()
+        public double temperatureInDegree()
         {
-            return float.Parse(JObject.Parse(requestWeatherForCity())["main"]["temp"].ToString().Trim());
+            return double.Parse(JObject.Parse(requestWeatherForCity())["main"]["temp"].ToString().Trim()) - 273.15;
         }
 
         public float windInKM()

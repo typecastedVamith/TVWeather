@@ -6,13 +6,12 @@ namespace TVWeatherApp
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
-            //  WeatherForcast forcast = new OpenWeatherMap();
-            // Console.WriteLine(forcast.temperatureInDegree());
+             WeatherForcast openWeatherApi = new OpenWeatherMap();
+             Console.WriteLine("Temperature from weatherapi "+openWeatherApi.temperatureInDegree());
 
             WeatherForcast forcast = new NdtVWeather();
             forcast.temperatureInDegree();
-
+            Console.WriteLine("Tempature from NDTVweatherforcast" + forcast.temperatureInDegree());
 
         }
     }
