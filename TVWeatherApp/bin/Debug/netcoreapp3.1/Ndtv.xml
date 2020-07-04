@@ -1,0 +1,4 @@
+<?xml version = "1.0"?>
+<class Feature = "Ndtv">
+   <NdtvPlaceHolder xpath = "//input[@class='searchBox'] id ="searchBox"/>
+</class>

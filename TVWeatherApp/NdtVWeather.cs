@@ -15,10 +15,11 @@ namespace TVWeatherApp
 
         public float temperatureInDegree()
         {
-            //   var browser = FireFoxBrowser.getInstance();
-            //   browser.getDriver();
-            IWebDriver driver = new FirefoxDriver();
-            driver.Navigate().GoToUrl("https://www.google.com/");
+            var browser = ChromeBrowser.getInstance();
+            browser.getDriver().Navigate().GoToUrl(Config.readNDTYWeatherUrl());
+            BrowserUI UI = new BrowserUI();
+            UI.click("Ndtv", "id", "NdtvPlaceHolder",0);
+            UI.sendText("Ndtv", "id", "NdtvPlaceHolder", "Mumbai");
 
             throw new NotImplementedException();
         }

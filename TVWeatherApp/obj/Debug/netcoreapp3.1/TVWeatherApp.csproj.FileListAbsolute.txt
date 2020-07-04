@@ -23,4 +23,5 @@ C:\Users\Amith.v.nayak\source\repos\TVWeatherApp\TVWeatherApp\obj\Debug\netcorea
 C:\Users\Amith.v.nayak\source\repos\TVWeatherApp\TVWeatherApp\obj\Debug\netcoreapp3.1\TVWeatherApp.pdb
 C:\Users\Amith.v.nayak\source\repos\TVWeatherApp\TVWeatherApp\obj\Debug\netcoreapp3.1\TVWeatherApp.genruntimeconfig.cache
 C:\Users\Amith.v.nayak\source\repos\TVWeatherApp\TVWeatherApp\bin\Debug\netcoreapp3.1\WebDriver.dll
+C:\Users\Amith.v.nayak\source\repos\TVWeatherApp\TVWeatherApp\obj\Debug\netcoreapp3.1\TVWeatherApp.csprojAssemblyReference.cache
 C:\Users\Amith.v.nayak\source\repos\TVWeatherApp\TVWeatherApp\obj\Debug\netcoreapp3.1\TVWeatherApp.csproj.CoreCompileInputs.cache

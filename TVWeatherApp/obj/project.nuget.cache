@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "9MeK6KqGb4Pr9W9mk/QnTzsLKJYi45Lh1+u6QI4uyr3PhFkLv+AHlE/hBICn1i5gM05T7OIPxaOuywNcC8++eA==",
+  "dgSpecHash": "Fy8cGugbPWLZn9q2U4+iQkEoOsxC18xaZD0ggGeM2/SRg8o8lSPmeUl7jnGHGriKY+6gaHVdc2AKEMdzZOMiZQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\Amith.v.nayak\\source\\repos\\TVWeatherApp\\TVWeatherApp\\TVWeatherApp.csproj",
   "expectedPackageFiles": [
@@ -17,7 +17,8 @@
     "C:\\Users\\Amith.v.nayak\\.nuget\\packages\\restclient\\3.0.0.21\\restclient.3.0.0.21.nupkg.sha512",
     "C:\\Users\\Amith.v.nayak\\.nuget\\packages\\restsharp\\106.11.4\\restsharp.106.11.4.nupkg.sha512",
     "C:\\Users\\Amith.v.nayak\\.nuget\\packages\\selenium.firefox.webdriver\\0.26.0\\selenium.firefox.webdriver.0.26.0.nupkg.sha512",
-    "C:\\Users\\Amith.v.nayak\\.nuget\\packages\\selenium.webdriver\\3.141.0\\selenium.webdriver.3.141.0.nupkg.sha512"
+    "C:\\Users\\Amith.v.nayak\\.nuget\\packages\\selenium.webdriver\\3.141.0\\selenium.webdriver.3.141.0.nupkg.sha512",
+    "C:\\Users\\Amith.v.nayak\\.nuget\\packages\\selenium.webdriver.chromedriver\\83.0.4103.3910\\selenium.webdriver.chromedriver.83.0.4103.3910.nupkg.sha512"
   ],
   "logs": []
 }
