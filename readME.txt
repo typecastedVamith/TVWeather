@@ -7,5 +7,5 @@ This is to compare weather from ndtv and openweatherapi
 5)All the identifiers used in browser operation resides in ndtv.xml in location TVWeatherApp\bin\Debug\netcoreapp3.1 
 6)config class has methods to read values and has comparator method which calculates and return bool value within range or out of range
 7) Program class is the entry point and execution starts from this class.
-8) To run goto C:\Users\Amith.v.nayak\source\repos\TVWeatherApp\TVWeatherApp\bin\Debug\netcoreapp3.1 and run TVWeatherApp.exe as admin, output is printed on console
+8) To run goto \TVWeatherApp\bin\Debug\netcoreapp3.1 and run TVWeatherApp.exe as admin, output is printed on console
  
