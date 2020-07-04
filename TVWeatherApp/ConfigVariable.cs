@@ -10,5 +10,6 @@ namespace TVWeatherApp
         public static readonly String ApiKey = "ApiKey";
         public static readonly String OpenweathermapUrl = "OpenweathermapUrl";
         public static readonly String NDTYWeatherUrl = "NDTYWeatherUrl";
+        public static readonly String ComparatorThreshold = "ComparatorThreshold";
     }
 }

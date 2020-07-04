@@ -6,6 +6,10 @@ using OpenQA.Selenium;
 
 namespace TVWeatherApp
 {
+    /*
+     * This class reads from ndtv weather section and returns temperature from city mentioned in config file
+     *  returns value in long
+     */
     class NdtVWeather : WeatherForcast
     {
         public float humidityInPercentage()

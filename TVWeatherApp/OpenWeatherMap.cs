@@ -5,6 +5,10 @@ using Newtonsoft.Json.Linq;
 
 namespace TVWeatherApp
 {
+    /*
+     *   This class reads temperature from getcall of openweather api and returns value in long format
+     *   Only temperature implementation is used,others are not implemented
+     */
     class OpenWeatherMap : WeatherForcast
     {
         public float humidityInPercentage()

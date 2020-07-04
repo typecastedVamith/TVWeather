@@ -7,6 +7,9 @@ using OpenQA.Selenium.Chrome;
 
 namespace TVWeatherApp
 {
+    /*
+     *  This class is used to inititialze chromeDriver 
+     */
     public sealed class ChromeBrowser
     {
         static ChromeBrowser init = new ChromeBrowser();

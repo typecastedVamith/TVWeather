@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "Fy8cGugbPWLZn9q2U4+iQkEoOsxC18xaZD0ggGeM2/SRg8o8lSPmeUl7jnGHGriKY+6gaHVdc2AKEMdzZOMiZQ==",
+  "dgSpecHash": "1tcSEvaz7mWUr+0GfiLItPKw2DWiOohpapOHTJHBQHnT7yVOku5Fb27DtwM+zk0k6ppZ7xtyD3oTqgCjq0r5Lg==",
   "success": true,
   "projectFilePath": "C:\\Users\\Amith.v.nayak\\source\\repos\\TVWeatherApp\\TVWeatherApp\\TVWeatherApp.csproj",
   "expectedPackageFiles": [
@@ -13,6 +13,7 @@
     "C:\\Users\\Amith.v.nayak\\.nuget\\packages\\microsoft.extensions.filesystemglobbing\\3.1.4\\microsoft.extensions.filesystemglobbing.3.1.4.nupkg.sha512",
     "C:\\Users\\Amith.v.nayak\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\3.1.4\\microsoft.extensions.logging.abstractions.3.1.4.nupkg.sha512",
     "C:\\Users\\Amith.v.nayak\\.nuget\\packages\\microsoft.extensions.primitives\\3.1.4\\microsoft.extensions.primitives.3.1.4.nupkg.sha512",
+    "C:\\Users\\Amith.v.nayak\\.nuget\\packages\\mstest.testframework\\2.1.2\\mstest.testframework.2.1.2.nupkg.sha512",
     "C:\\Users\\Amith.v.nayak\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
     "C:\\Users\\Amith.v.nayak\\.nuget\\packages\\restclient\\3.0.0.21\\restclient.3.0.0.21.nupkg.sha512",
     "C:\\Users\\Amith.v.nayak\\.nuget\\packages\\restsharp\\106.11.4\\restsharp.106.11.4.nupkg.sha512",

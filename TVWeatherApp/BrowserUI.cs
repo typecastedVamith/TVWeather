@@ -6,6 +6,10 @@ using OpenQA.Selenium.Support.UI;
 
 namespace TVWeatherApp
 {
+    /*
+     * This class has genericmethods such as click/Read text/Write text used for browser interaction
+     * It reads from objectrepositiory and locator and screen is passed
+     */
     class BrowserUI
     {
         private IWebDriver Driver = ChromeBrowser.getInstance().getDriver();

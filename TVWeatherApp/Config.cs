@@ -8,6 +8,10 @@ using OpenQA.Selenium;
 
 namespace TVWeatherApp
 {
+    /*
+     * This class is to read configuration urls,apikey, cityame & threshold range
+     * This is also used to read object repository which is xml & si stored in \bin\Debug\netcoreapp3.1
+     */
     public class Config
     {
         private static IWebDriver driver = ChromeBrowser.getInstance().getDriver();
@@ -35,6 +39,10 @@ namespace TVWeatherApp
         {
            return JObject.Parse(File.ReadAllText(Directory.GetCurrentDirectory() + "/config.json")).GetValue(key).ToString();
         }
+        public static String readComparatorThreshold()
+        {
+            return returnValue(ConfigVariable.ComparatorThreshold);
+        }
 
         public static OpenQA.Selenium.By locator(String screen, String locatorType, String locator)
         {
@@ -61,6 +69,12 @@ namespace TVWeatherApp
                 case "xpath": return By.XPath(node.Attributes[locatorType]?.InnerText.Replace("CITY", Update));
             }
             return null;
+        }
+
+        public static bool calculateThreshold(double apiop, double ndtvop)
+        {
+            if ((Math.Abs(Math.Abs(apiop) - Math.Abs(ndtvop))) > double.Parse(Config.readComparatorThreshold())) return false;
+            else return true;
         }
 
     }
